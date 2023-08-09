@@ -1,1 +1,2 @@
-#!/usr/bin/python3 -c "$PYCODE"
+#!/usr/bin/bash
+python3 <<< "$PYCODE"
