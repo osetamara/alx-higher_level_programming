@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-def remove_char_at(str, n):
-    if n < 0:
-        return str
-    else:
-        str = str[0:n] + str[n+1:]
-    return str
+#!/usr/bin/python3
+for j in range(122, 96, -1):
+    if j % 2:
+        j = j - 32
+    print("{:c}".format(j), end="")
