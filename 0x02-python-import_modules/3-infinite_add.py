@@ -11,12 +11,12 @@ def add_arg(argv):
         print("{:d}".format(n))
         return
     else:
-        i = 1
+        j = 1
         add = 0
-        while i <= n:
+        while j <= n:
             # Sum up the integer values of the arguments.
             add += int(argv[i])
-            i += 1
+            j += 1
         # Print the total sum.
         print("{:d}".format(add))
 
