@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+i#!/usr/bin/python3
 
 if __name__ == "__main__":
     # This block of code is executed when the script is run directly, not when imported.
@@ -10,8 +10,6 @@ if __name__ == "__main__":
     a = 1
     b = 2
 
-    # Calculate the sum of 'a' and 'b' using the imported 'add' function.
-    result = add(a, b)
 
     # Print the formatted output showing the addition operation and result.
-    print("{} + {} = {}".format(a, b, result))
+    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
