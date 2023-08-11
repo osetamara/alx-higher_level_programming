@@ -1,18 +1,28 @@
 #!/usr/bin/python3
 
+def add_arg(argv):
+    # Function to add command-line arguments and print the sum
+    
+    # Calculate the number of command-line arguments.
+    n = len(argv) - 1
+    
+    if n == 0:
+        # If no arguments are provided.
+        print("{:d}".format(n))
+        return
+    else:
+        i = 1
+        add = 0
+        while i <= n:
+            # Sum up the integer values of the arguments.
+            add += int(argv[i])
+            i += 1
+        # Print the total sum.
+        print("{:d}".format(add))
+
 if __name__ == "__main__":
     # This block of code is executed when the script is run directly, not when imported.
     
-    # Import the sys module to access command-line arguments.
     import sys
-
-    # Initialize a variable to store the sum of arguments.
-    total = 0
-
-    # Iterate through the command-line arguments (excluding the script name).
-    for i in range(len(sys.argv) - 1):
-        # Convert each argument to an integer and add it to the total.
-        total += int(sys.argv[i + 1])
-
-    # Print the calculated total of all arguments.
-    print("{}".format(total))
+    # Call the add_arg function with command-line arguments.
+    add_arg(sys.argv)
