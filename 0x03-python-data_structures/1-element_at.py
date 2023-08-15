@@ -3,10 +3,10 @@ def element_at(my_list, idx):
     """
     Retrieve an element from a list at a specified index.    
     Args:
-        my_list (list): The list from which to retrieve the element.
+        my_list (list):list from which to retrieve the element.
         idx (int): The index of the element to re
     Return:
-        element: The element at the specified index, or None if the index is out of bounds.
+        element: element at a specified index.
     """
     # Check if the index is out of bounds
     if idx < 0 or idx > (len(my_list) - 1):
