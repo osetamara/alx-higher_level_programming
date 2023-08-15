@@ -3,8 +3,6 @@
 def no_c(my_string):
     """
     Remove all occurrences of characters 'c' and 'C' from a string.    
-    Args: my_string (str) input string to remove 'c' and 'C' characters.
-    Returns:str: A new string with 'c' and 'C' characters removed.
     """
     # Create a copy of the string without 'c' and 'C' characters
     copy = [x for x in my_string if x != 'c' and x != 'C']
