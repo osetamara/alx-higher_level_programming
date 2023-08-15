@@ -1,10 +1,10 @@
 #!/usr/bin/python3
+
 def element_at(my_list, idx):
     """
     Retrieve an element from a list at a specified index.    
-    Args:
-        my_list (list):list from which to retrieve the element.
-        idx (int): The index of the element to re
+    Args: my_list (list):list from which to retrieve element.
+        idx (int): The index of element to re
     Return:
         element: element at a specified index.
     """
