@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# This script defines a function to retrieve an element from a list.
-
 def element_at(my_list, idx):
     """
     Retrieve an element from a list at a specified index.    
