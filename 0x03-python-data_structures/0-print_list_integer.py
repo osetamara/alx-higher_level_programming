@@ -2,8 +2,7 @@
 
 def print_list_integer(my_list=None):
     """
-    Print all integers in the given list.
-    
+    Print all integers in the given list.    
     Args:
         my_list (list): A list containing integers.to an empty list if not provided.
     """
