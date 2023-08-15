@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# This script defines a function to replace an element in a list at a specific position.
 
 def replace_in_list(my_list, idx, element):
     """
@@ -13,6 +12,5 @@ def replace_in_list(my_list, idx, element):
     if idx >= 0 and idx < len(my_list):
         # Replace the element at the specified index
         my_list[idx] = element
-    
     # Return the modified list
     return my_list
