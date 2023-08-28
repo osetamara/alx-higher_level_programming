@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 
 def safe_print_list_integers(my_list=[], x=0):
- """first element of a list and only integers
+    """Print the first x elements of a list and obly integers.
 
-   Args:
-      my_list(list): list to print elements from 
-      x(int): number of element to my_list to print.
+    Args:
+        my_list (list): The list to print elements from.
+        x (int): The number of elements of my_list to print.
 
-  Returns:
-       real number of integer printed.
-"""
-  ret = 0
+    Returns:
+        The number of integer printed.
+    """
+    ret = 0
     for j in range(0, x):
         try:
             print("{:d}".format(my_list[j]), end="")
@@ -19,3 +19,4 @@ def safe_print_list_integers(my_list=[], x=0):
             continue
     print("")
     return (ret)
+
