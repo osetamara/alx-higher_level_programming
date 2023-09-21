@@ -165,7 +165,7 @@ class Base:
             turt.up()
             turt.goto(rect.x, rect.y)
             turt.down()
-            for j in range(2):
+            for i in range(2):
                 turt.forward(rect.width)
                 turt.left(90)
                 turt.forward(rect.height)
